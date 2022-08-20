@@ -4,6 +4,7 @@
 body{
     background: rgb(130,132,207);
 background: linear-gradient(90deg, rgba(130,132,207,1) 1%, rgba(90,78,157,1) 35%, rgba(88,70,208,1) 69%, rgba(99,220,245,1) 100%);
+background-repeat:repeat;
 }
 
 .intro{
@@ -28,7 +29,7 @@ background: linear-gradient(90deg, rgba(130,132,207,1) 1%, rgba(90,78,157,1) 35%
     color: aliceblue;
     text-shadow: rgb(220, 36, 66) 1px 1px;
     margin: auto;
-    margin-top: 1.5cm;
+    margin-top: 0.5cm;
 }
 
 .add-button{
@@ -43,8 +44,8 @@ background: linear-gradient(90deg, rgba(130,132,207,1) 1%, rgba(90,78,157,1) 35%
   
 }
 
-.add-task{
-   margin-top: 2cm;
+.add-remove-task{
+   margin-top: 1cm;
    margin-left: 3cm;
 }
 
@@ -61,10 +62,10 @@ button:active{
 
 
 
-.added-task{
+.add-task{
     border-color: black;
     background-color:white;
-    padding: 1.5rem 5cm;
+    padding: 1rem 5cm;
     border-radius: 1cm;
     margin: 0.8cm;
     text-transform: capitalize;
@@ -87,5 +88,10 @@ button:active{
     margin-top: 1cm;
     font-family: 'Silkscreen', cursive;
   
+}
+
+li{
+    text-transform: capitalize;
+    padding: 0.4cm .5cm;
 }
 

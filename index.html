@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="Assets/web-logo.png" type="image/x-icon">
+    <script src="script.js"></script>
     <link rel="stylesheet" href="style/style.css">
     <title>To Do List</title>
 </head>
@@ -14,15 +15,21 @@
         <h3 class="about">To add your task click Add button and when done click done button</h3>
     </div>
     
-    <div class="add-task">
-        <button class="add-button">Add Task</button>
-        <input class="added-task" type="text">
-        <button class="remove-button">Remove Task</button>
+    <div class="add-remove-task">
+        <button onclick="EditTask()" class="add-button">Add Task</button>
+        <input class="add-task" placeholder="Enter your task here." type="text">
+        <button class="remove-button">Remove All Task</button>
     </div>
     
     <section>
         <div class="user-tasks"> 
-            
+            <ol style="display:flex row; margin-left:9cm;cursor:default;">
+                <li><input style="cursor: pointer;" type="checkbox"><p1 id="task1">TASK</p1> </li>
+                <li><input id='task2' style="cursor: pointer;" type="checkbox">TASK</li>
+                <li><input id='task3' style="cursor: pointer;" type="checkbox">TASK</li>
+                <li><input id='task4' style="cursor: pointer;" type="checkbox">TASK</li>
+                <li><input id='task5' style="cursor: pointer;" type="checkbox">TASK</li>
+            </ol>            
         </div>
     </section>
 
