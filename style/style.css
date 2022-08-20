@@ -38,7 +38,7 @@ background-repeat:repeat;
     color: white;
     border-radius: 1cm;
     padding: 1rem 1rem ;
-    margin-left: auto;
+    margin-left: 1cm;
     margin-top: 1cm;
     font-family: 'Silkscreen', cursive;
   
@@ -61,13 +61,18 @@ button:active{
 .remove-button:hover:active {background-color: rgb(170, 7, 7);}
 
 
+.add-task::placeholder{
+    text-align: center;
+}
 
 .add-task{
     border-color: black;
     background-color:white;
-    padding: 1rem 5cm;
+    padding: auto;
+    height: 1.5cm;
+    width: 15cm;
     border-radius: 1cm;
-    margin: 0.8cm;
+    margin-left: 2cm;
     text-transform: capitalize;
     text-align:left;
     text-size-adjust: 0.7cm;
@@ -84,7 +89,8 @@ button:active{
     color: white;
     border-radius: 1cm;
     padding: 1rem 1rem ;
-    margin-right: auto;
+    margin-right: 2cm;
+    margin-left: 1cm;
     margin-top: 1cm;
     font-family: 'Silkscreen', cursive;
   
