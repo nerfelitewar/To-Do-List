@@ -61,11 +61,11 @@ button:active{
 .remove-button:hover:active {background-color: rgb(170, 7, 7);}
 
 
-.add-task::placeholder{
+#add-task::placeholder{
     text-align: center;
 }
 
-.add-task{
+#add-task{
     border-color: black;
     background-color:white;
     padding: auto;
