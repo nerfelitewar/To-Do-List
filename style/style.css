@@ -59,7 +59,8 @@ button:active{
 
 .add-button:hover:active {background-color: rgba(255, 179, 0, 0.704);}
 .remove-button:hover:active {background-color: rgb(170, 7, 7);}
-
+.add-button:hover{background-color: rgb(246, 204, 54) ;}
+.remove-button:hover{background-color:rgb(246, 52, 52) ;}
 
 #add-task::placeholder{
     text-align: center;
@@ -97,7 +98,15 @@ button:active{
 }
 
 li{
-    text-transform: capitalize;
-    padding: 0.4cm .5cm;
+    text-transform:capitalize;
+    padding: 0.4cm;
+    list-style: none;
+    padding: 0.5cm;
+    background-color: white;
+    margin:0.3cm;
+    margin-right:3cm;
+    justify-content: center;
+    justify-items: center;
+    justify-self: center;
+    
 }
-
