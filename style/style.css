@@ -74,7 +74,7 @@ button:active{
     width: 15cm;
     border-radius: 1cm;
     margin-left: 2cm;
-    text-transform: capitalize;
+    text-transform:none;
     text-align:left;
     text-size-adjust: 0.7cm;
     font-size: 0.6cm;
