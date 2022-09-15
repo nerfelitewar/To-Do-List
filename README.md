@@ -1,2 +1,3 @@
 # To-Do-List
+# ITS PENDING BCZ IM LEARNING 
 To do list using HTML,CSS AND JS
